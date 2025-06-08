@@ -3,7 +3,7 @@ import SwiftUI
 struct StudyAreaDetailView: View {
 
     let item: Item
-    @Environment(\.presentationMode) var presentationMode
+    @Environment(\.presentationMode) var presentationMode 
 
     var body: some View {
         VStack(spacing: 0) {
